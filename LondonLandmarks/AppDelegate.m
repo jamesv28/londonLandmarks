@@ -17,6 +17,15 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:35.0/255.0 green:90.0/255.0 blue:141.0/255.0 alpha:1.0] ];
+    
+    [[UINavigationBar appearance]setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance]setTitleTextAttributes:@{NSForegroundColorAttributeName :[UIColor whiteColor]}];
+    
+    // change the color of battery and time
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
+    
     return YES;
 }
 

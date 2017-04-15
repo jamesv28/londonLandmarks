@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
 @interface DetailViewController : UIViewController
+
+@property (strong, nonatomic) NSArray *detailModal;
+
+@property (weak, nonatomic) IBOutlet UIImageView *detailImageView;
+@property (weak, nonatomic) IBOutlet UILabel *detailTitle;
+@property (weak, nonatomic) IBOutlet UILabel *detailDescription;
+@property (weak, nonatomic) IBOutlet UITextView *detailTextView;
+@property (weak, nonatomic) IBOutlet MKMapView *detailMapView;
+@property (weak, nonatomic) IBOutlet UIButton *directionButt;
+- (IBAction)directions:(id)sender;
 
 @end
