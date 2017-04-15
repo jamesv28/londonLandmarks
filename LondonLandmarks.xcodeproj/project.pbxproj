@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA364EA31EA2B45800AD7E2D /* MapPin.m in Sources */ = {isa = PBXBuildFile; fileRef = AA364EA21EA2B45800AD7E2D /* MapPin.m */; };
 		AA61A68F1EA1708900E65595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61A68E1EA1708900E65595 /* main.m */; };
 		AA61A6921EA1708A00E65595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA61A6911EA1708A00E65595 /* AppDelegate.m */; };
 		AA61A6981EA1708B00E65595 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA61A6961EA1708B00E65595 /* Main.storyboard */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA364EA11EA2B45800AD7E2D /* MapPin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapPin.h; sourceTree = "<group>"; };
+		AA364EA21EA2B45800AD7E2D /* MapPin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapPin.m; sourceTree = "<group>"; };
 		AA61A68A1EA1708900E65595 /* LondonLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LondonLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA61A68E1EA1708900E65595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA61A6901EA1708A00E65595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +127,8 @@
 				AAA45D951EA175360031AFE9 /* TableViewCell.m */,
 				AAD408771EA1963800261097 /* DetailViewController.h */,
 				AAD408781EA1963800261097 /* DetailViewController.m */,
+				AA364EA11EA2B45800AD7E2D /* MapPin.h */,
+				AA364EA21EA2B45800AD7E2D /* MapPin.m */,
 			);
 			path = LondonLandmarks;
 			sourceTree = "<group>";
@@ -295,6 +300,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA364EA31EA2B45800AD7E2D /* MapPin.m in Sources */,
 				AAD408791EA1963800261097 /* DetailViewController.m in Sources */,
 				AA61A6921EA1708A00E65595 /* AppDelegate.m in Sources */,
 				AAA45D961EA175360031AFE9 /* TableViewCell.m in Sources */,
